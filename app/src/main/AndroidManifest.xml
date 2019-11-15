@@ -16,7 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Menu"></activity>
+        <activity android:name=".Menu" />
+        <activity android:name=".Yoga" />
+        <activity android:name=".ListExcercises" />
+        <activity android:name=".Gym" />
+        <activity android:name=".Camera" />
+        <activity android:name=".Note"></activity>
     </application>
 
 </manifest>

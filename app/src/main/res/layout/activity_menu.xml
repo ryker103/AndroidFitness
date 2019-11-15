@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bgapps"
+    android:background="@drawable/logoas"
     tools:context=".Menu">
 
     <LinearLayout
@@ -20,13 +20,13 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="32dp"
             >
-            
-            <TextView
+
+           <!-- <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Fitness - Yoga"
                 android:textSize="24dp"
-                android:textColor="#FFF" />
+                android:textColor="#FFF" />-->
         </RelativeLayout>
         
         <GridLayout
@@ -59,7 +59,9 @@
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:src="@drawable/download"
-                        android:layout_gravity="center"/>
+                        android:layout_gravity="center"
+                        android:onClick="btnGym"
+                        tools:ignore="OnClick" />
                     
                     <TextView
                         android:layout_width="wrap_content"
@@ -96,14 +98,16 @@
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:src="@drawable/yoga"
-                        android:layout_gravity="center"/>
+                        android:layout_gravity="center"
+                        android:onClick="Yogaa"
+                        tools:ignore="OnClick" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:textColor="#6f6f6f"
-                        android:text="Gym"
+                        android:text="Yoga"
                         android:textSize="18dp"
                         android:layout_marginLeft="50dp"
                         />
@@ -131,17 +135,19 @@
                     <ImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/download"
-                        android:layout_gravity="center"/>
+                        android:src="@drawable/camera"
+                        android:layout_gravity="center"
+                        android:onClick="btnCamera"
+                        tools:ignore="OnClick"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:textColor="#6f6f6f"
-                        android:text="Gym"
+                        android:text="Camera"
                         android:textSize="18dp"
-                        android:layout_marginLeft="50dp"
+                        android:layout_marginLeft="40dp"
                         />
                 </LinearLayout>
 
@@ -168,16 +174,18 @@
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:src="@drawable/notee"
-                        android:layout_gravity="center"/>
+                        android:layout_gravity="center"
+                        android:onClick="btnNote"
+                        tools:ignore="OnClick"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:textColor="#6f6f6f"
-                        android:text="Gym"
+                        android:text="Note"
                         android:textSize="18dp"
-                        android:layout_marginLeft="50dp"
+                        android:layout_marginLeft="45dp"
                         />
                 </LinearLayout>
 
