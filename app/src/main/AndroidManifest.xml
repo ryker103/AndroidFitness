@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Exit"></activity>
+        <activity android:name=".MainActivity"
+            android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,11 +19,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".Menu" />
-        <activity android:name=".Yoga" />
         <activity android:name=".ListExcercises" />
         <activity android:name=".Gym" />
         <activity android:name=".Camera" />
-        <activity android:name=".Note"></activity>
+        <activity android:name=".Note" />
     </application>
 
 </manifest>

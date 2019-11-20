@@ -12,32 +12,29 @@ public class Menu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
     }
-
-    public void btnGym(View view)
+    //GYM
+    public void btnGym(View View)
     {
         Intent intent = new Intent(Menu.this, Gym.class);
         startActivity(intent);
     }
-    public void btnYoga(View view)
+    //NOTE
+    public void btnNote(View View)
     {
-        Intent intent = new Intent(Menu.this, Yoga.class);
+        Intent intent = new Intent(Menu.this, Note.class);
         startActivity(intent);
     }
-    //Yoga
-    public void btnCamera(View view)
+    //CAMERA
+    public void btnCamera(View View)
     {
         Intent intent = new Intent(Menu.this, Camera.class);
         startActivity(intent);
     }
-    public void btnNote(View view)
+    //EXIT
+    public void btnExit(View View)
     {
-        Intent intent = new Intent(Menu.this, Gym.class);
+        Intent intent = new Intent(Menu.this, Exit.class);
         startActivity(intent);
     }
 
-    public void btnYogaa(View view)
-    {
-        Intent intent = new Intent(Menu.this, Yoga.class);
-        startActivity(intent);
-    }
 }

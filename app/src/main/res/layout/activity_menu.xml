@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/logoas"
+    android:background="@drawable/logomenu"
     tools:context=".Menu">
 
     <LinearLayout
+        android:layout_marginTop="120dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -70,7 +71,7 @@
                         android:textColor="#6f6f6f"
                         android:text="Gym"
                         android:textSize="18dp"
-                        android:layout_marginLeft="50dp"
+                        android:layout_marginLeft="60dp"
                         />
                 </LinearLayout>
 
@@ -97,9 +98,9 @@
                     <ImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/yoga"
+                        android:src="@drawable/note"
                         android:layout_gravity="center"
-                        android:onClick="Yogaa"
+                        android:onClick="btnNote"
                         tools:ignore="OnClick" />
 
                     <TextView
@@ -107,7 +108,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:textColor="#6f6f6f"
-                        android:text="Yoga"
+                        android:text="Note"
                         android:textSize="18dp"
                         android:layout_marginLeft="50dp"
                         />
@@ -147,7 +148,7 @@
                         android:textColor="#6f6f6f"
                         android:text="Camera"
                         android:textSize="18dp"
-                        android:layout_marginLeft="40dp"
+                        android:layout_marginLeft="47dp"
                         />
                 </LinearLayout>
 
@@ -171,21 +172,21 @@
                     android:layout_gravity="center">
 
                     <ImageView
-                        android:layout_width="80dp"
+                        android:id="@+id/imgExit"
+                        android:layout_width="66dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/notee"
                         android:layout_gravity="center"
-                        android:onClick="btnNote"
-                        tools:ignore="OnClick"/>
+                        android:src="@drawable/exitt"
+                        android:onClick="btnExit"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:textColor="#6f6f6f"
-                        android:text="Note"
+                        android:text="Exit"
                         android:textSize="18dp"
-                        android:layout_marginLeft="45dp"
+                        android:layout_marginLeft="60dp"
                         />
                 </LinearLayout>
 
