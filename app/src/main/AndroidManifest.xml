@@ -9,8 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Exit"></activity>
-        <activity android:name=".MainActivity"
+        <activity android:name=".AnotherActivity"></activity>
+        <activity android:name=".Vai"  />
+        <activity android:name=".LungXo" />
+        <activity android:name=".Chan" />
+        <activity android:name=".Bung" />
+        <activity android:name=".Exit" />
+        <activity
+            android:name=".MainActivity"
             android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,7 +25,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".Menu" />
-        <activity android:name=".ListExcercises" />
         <activity android:name=".Gym" />
         <activity android:name=".Camera" />
         <activity android:name=".Note" />

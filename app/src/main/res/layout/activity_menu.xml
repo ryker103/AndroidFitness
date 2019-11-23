@@ -55,23 +55,23 @@
                     android:orientation="vertical"
                     android:padding="16dp"
                     android:layout_gravity="center">
-                    
+
                     <ImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/download"
+                        android:src="@drawable/ngucicon"
                         android:layout_gravity="center"
-                        android:onClick="btnGym"
+                        android:onClick="btnBung"
                         tools:ignore="OnClick" />
-                    
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:textColor="#6f6f6f"
-                        android:text="Gym"
+                        android:text="Chest "
                         android:textSize="18dp"
-                        android:layout_marginLeft="60dp"
+                        android:layout_gravity="center"
                         />
                 </LinearLayout>
 
@@ -98,9 +98,9 @@
                     <ImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/note"
+                        android:src="@drawable/bungiconn"
                         android:layout_gravity="center"
-                        android:onClick="btnNote"
+                        android:onClick="btnBung"
                         tools:ignore="OnClick" />
 
                     <TextView
@@ -108,9 +108,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:textColor="#6f6f6f"
-                        android:text="Note"
+                        android:text="Abdominal"
                         android:textSize="18dp"
-                        android:layout_marginLeft="50dp"
+                        android:layout_gravity="center"
                         />
                 </LinearLayout>
 
@@ -136,9 +136,9 @@
                     <ImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/camera"
+                        android:src="@drawable/chanicon"
                         android:layout_gravity="center"
-                        android:onClick="btnCamera"
+                        android:onClick="btnChan"
                         tools:ignore="OnClick"/>
 
                     <TextView
@@ -146,9 +146,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:textColor="#6f6f6f"
-                        android:text="Camera"
+                        android:text="Thigh"
                         android:textSize="18dp"
-                        android:layout_marginLeft="47dp"
+                        android:layout_gravity="center"
                         />
                 </LinearLayout>
 
@@ -173,20 +173,20 @@
 
                     <ImageView
                         android:id="@+id/imgExit"
-                        android:layout_width="66dp"
+                        android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/exitt"
-                        android:onClick="btnExit"/>
+                        android:src="@drawable/lungxoiconn"
+                        android:onClick="btnLungXo"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:textColor="#6f6f6f"
-                        android:text="Exit"
+                        android:text="Back"
                         android:textSize="18dp"
-                        android:layout_marginLeft="60dp"
+                        android:layout_gravity="center"
                         />
                 </LinearLayout>
 

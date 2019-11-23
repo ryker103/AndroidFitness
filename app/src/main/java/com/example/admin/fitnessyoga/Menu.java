@@ -12,28 +12,28 @@ public class Menu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
     }
-    //GYM
+    //NGUC
     public void btnGym(View View)
     {
         Intent intent = new Intent(Menu.this, Gym.class);
         startActivity(intent);
     }
-    //NOTE
-    public void btnNote(View View)
+    //Bung
+    public void btnBung(View View)
     {
-        Intent intent = new Intent(Menu.this, Note.class);
+        Intent intent = new Intent(Menu.this, Bung.class);
         startActivity(intent);
     }
-    //CAMERA
-    public void btnCamera(View View)
+    //CHAN
+    public void btnChan(View View)
     {
-        Intent intent = new Intent(Menu.this, Camera.class);
+        Intent intent = new Intent(Menu.this, Chan.class);
         startActivity(intent);
     }
-    //EXIT
-    public void btnExit(View View)
+    //LUNG XO
+    public void btnLungXo(View View)
     {
-        Intent intent = new Intent(Menu.this, Exit.class);
+        Intent intent = new Intent(Menu.this, LungXo.class);
         startActivity(intent);
     }
 
